@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kyoto.liuwa.xyz/sitemap.xml
