@@ -1,6 +1,6 @@
 [
   {
-    "asset": "temple.jpg",
+    "asset": "temple.webp",
     "file": "Kiyomizu.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
     "author": "Jordy Meow",
@@ -8,7 +8,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
-    "asset": "bamboo.jpg",
+    "asset": "bamboo.webp",
     "file": "Bamboo_Grove,_Arashiyama,_Kyoto,_Japan.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg",
     "author": "Basile Morin",
@@ -16,7 +16,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "asset": "food.jpg",
+    "asset": "food.webp",
     "file": "Nishiki_Ichiba_by_matsuyuki.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Nishiki_Ichiba_by_matsuyuki.jpg",
     "author": "matsuyuki",
@@ -24,7 +24,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
   {
-    "asset": "castle.jpg",
+    "asset": "castle.webp",
     "file": "NinomaruPalace.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:NinomaruPalace.jpg",
     "author": "",
@@ -32,7 +32,7 @@
     "licenseUrl": ""
   },
   {
-    "asset": "golden.jpg",
+    "asset": "golden.webp",
     "file": "Kinkaku-ji,_Kyoto.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Kinkaku-ji%2C_Kyoto.jpg",
     "author": "27curlyta",
@@ -40,7 +40,7 @@
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   {
-    "asset": "river.jpg",
+    "asset": "river.webp",
     "file": "Kamogawa_sakura.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Kamogawa_sakura.jpg",
     "author": "Moja",
@@ -48,7 +48,7 @@
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   {
-    "asset": "canal.jpg",
+    "asset": "canal.webp",
     "file": "Path_of_philosophy.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Path_of_philosophy.jpg",
     "author": "The original uploader was Sdalu at English Wikipedia.",
@@ -56,7 +56,7 @@
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   {
-    "asset": "uji.jpg",
+    "asset": "uji.webp",
     "file": "Phoenix_Hall,_Byodo-in,_November_2016_-01.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Phoenix_Hall%2C_Byodo-in%2C_November_2016_-01.jpg",
     "author": "Martin Falbisoner",
@@ -64,7 +64,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "asset": "nanzenji.jpg",
+    "asset": "nanzenji.webp",
     "file": "251213_Nanzen-ji_Kyoto_Japan01s3.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:251213_Nanzen-ji_Kyoto_Japan01s3.jpg",
     "author": "663highland",
@@ -72,7 +72,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "asset": "museum.jpg",
+    "asset": "museum.webp",
     "file": "260214_Kyoto_National_Museum_Kyoto_Japan04bs4.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:260214_Kyoto_National_Museum_Kyoto_Japan04bs4.jpg",
     "author": "663highland",
@@ -80,7 +80,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "asset": "pontocho.jpg",
+    "asset": "pontocho.webp",
     "file": "Pontocho_by_Wolfiewolf_in_Nabeyacho,_Kyoto.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg",
     "author": "Wolfiewolf from Pontocho street in Nakagyo, Kyoto",
@@ -88,7 +88,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   {
-    "asset": "tofu.jpg",
+    "asset": "tofu.webp",
     "file": "Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG",
     "source": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG",
     "author": "DryPot",

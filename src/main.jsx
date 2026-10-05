@@ -229,7 +229,7 @@ function App() {
         <section className="hero">
           <img
             className="hero-image"
-            src="/images/kyoto.jpg"
+            src="/images/kyoto.webp"
             alt="京都东山暮色中的八坂之塔与传统街道"
             fetchPriority="high"
           />
@@ -344,7 +344,7 @@ function App() {
                     aria-label={`了解${p.name}`}
                   >
                     <img
-                      src={`/images/${p.img}.jpg`}
+                      src={`/images/${p.img}.webp`}
                       loading="lazy"
                       alt={
                         ["tea"].includes(p.img) ? "抹茶饮品氛围配图" : p.name
@@ -445,7 +445,7 @@ function App() {
               <aside className="map-detail">
                 <span className="eyebrow green">A PLACE TO PAUSE</span>
                 <img
-                  src={`/images/${mapPlace.img}.jpg`}
+                  src={`/images/${mapPlace.img}.webp`}
                   alt={
                     mapPlace.img === "tea" ? "抹茶饮品氛围配图" : mapPlace.name
                   }
@@ -1130,7 +1130,7 @@ function App() {
               <>
                 <img
                   className="modal-cover"
-                  src={`/images/${modal.img}.jpg`}
+                  src={`/images/${modal.img}.webp`}
                   alt={modal.img === "tea" ? "茶饮氛围配图" : modal.name}
                 />
                 <div className="modal-body">
@@ -1208,7 +1208,7 @@ function App() {
                           setModal(p);
                         }}
                       >
-                        <img src={`/images/${p.img}.jpg`} alt="" />
+                        <img src={`/images/${p.img}.webp`} alt="" />
                         <span>
                           <b>{p.name}</b>
                           <small>
@@ -1241,7 +1241,7 @@ function App() {
                     <div className="saved-list">
                       {chosen.map((p) => (
                         <div key={p.id}>
-                          <img src={`/images/${p.img}.jpg`} alt="" />
+                          <img src={`/images/${p.img}.webp`} alt="" />
                           <button
                             onClick={() => {
                               setSavedOpen(false);
