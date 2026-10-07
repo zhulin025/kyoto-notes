@@ -1,0 +1,299 @@
+{
+  "Q1089767": {
+    "sect": "临济宗南禅寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山",
+      "五山之上"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "南禅寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/nanzen/"
+      }
+    ]
+  },
+  "Q1759226": {
+    "sect": "临济宗天龙寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山",
+      "京都五山第一位"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "天龙寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/tenryu/"
+      },
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ],
+    "heritage": [
+      "世界遗产组成部分"
+    ]
+  },
+  "Q1786709": {
+    "sect": "临济宗相国寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山",
+      "京都五山第二位"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "相国寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/shokoku/"
+      }
+    ]
+  },
+  "Q1440954": {
+    "sect": "临济宗建仁寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山",
+      "京都五山第三位"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "建仁寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/kennin/"
+      }
+    ]
+  },
+  "Q2166743": {
+    "sect": "临济宗东福寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山",
+      "京都五山第四位"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "东福寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/tofuku/"
+      }
+    ]
+  },
+  "Q901256": {
+    "sect": "临济宗大德寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "大德寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/daitoku/"
+      }
+    ]
+  },
+  "Q376288": {
+    "sect": "临济宗妙心寺派",
+    "family": "临济宗",
+    "ranks": [
+      "大本山"
+    ],
+    "sources": [
+      {
+        "label": "临济宗・黄檗宗各派本山",
+        "url": "https://rinnou.net/head-temple/"
+      },
+      {
+        "label": "妙心寺 · 宗派本山介绍",
+        "url": "https://rinnou.net/head-temple/myoshin/"
+      }
+    ]
+  },
+  "Q873645": {
+    "sect": "净土宗",
+    "family": "净土宗",
+    "ranks": [
+      "总本山"
+    ],
+    "sources": [
+      {
+        "label": "净土宗总本山知恩院",
+        "url": "https://www.chion-in.or.jp/"
+      }
+    ]
+  },
+  "Q700448": {
+    "deity": "贺茂别雷大神",
+    "ranks": [
+      "旧官币大社",
+      "山城国一宫"
+    ],
+    "sources": [
+      {
+        "label": "上贺茂神社御由绪",
+        "url": "https://www.kamigamojinja.jp/about/yuisho/"
+      },
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ],
+    "heritage": [
+      "世界遗产组成部分"
+    ]
+  },
+  "Q1046403": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q221716": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q1157535": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q1202871": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q986750": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q1516753": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q270983": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q257473": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q587371": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q1146038": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  },
+  "Q714828": {
+    "deity": "宇迦之御魂大神、佐田彦大神、大宫能卖大神、田中大神、四大神",
+    "heritage": [
+      "重要文化财相关"
+    ],
+    "sources": [
+      {
+        "label": "伏见稻荷大社祭神说明",
+        "url": "https://inari.jp/about/saijin/"
+      }
+    ]
+  },
+  "Q701620": {
+    "heritage": [
+      "世界遗产组成部分"
+    ],
+    "sources": [
+      {
+        "label": "京都市世界遗产构成资产名录",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/sekaiisan-e.htm"
+      }
+    ]
+  }
+}

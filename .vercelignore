@@ -3,3 +3,6 @@ artifacts
 dist
 .git
 .env*
+
+buddhism
+scripts

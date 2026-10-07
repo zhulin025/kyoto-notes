@@ -1,0 +1,55 @@
+{
+  "compiled": "2026-10-08",
+  "snapshots": [
+    {
+      "file": "osm-test.json",
+      "sha256": "a903e34874c45dfd7dced8f8af7617bb8c18722467cc3c32d0044995b4dafa65",
+      "osmTimestamp": "2026-10-07T23:16:26Z"
+    },
+    {
+      "file": "wards.json",
+      "sha256": "e716060e0d13ba7d66891756fda670f34f5fa81657802fcc707f339d3428b4ae",
+      "osmTimestamp": "2026-10-07T23:18:29Z"
+    },
+    {
+      "file": "roads.json",
+      "sha256": "d460f4d687f170703bc0adeef2c44607934145b3b31aa67fc5aa23ebcaa909b6",
+      "osmTimestamp": "2026-10-07T23:19:30Z"
+    },
+    {
+      "file": "rivers.json",
+      "sha256": "eb193fdf2c0afed9082ad2255b5ff57b333b50fa43a475522ee3200e3d758545",
+      "osmTimestamp": "2026-10-07T23:33:48Z"
+    },
+    {
+      "file": "buildings.json",
+      "sha256": "8cb53c88c1368b629b797eb4844886b8850868cd6c5acbe101656f0a3915e049",
+      "osmTimestamp": "2026-10-07T23:38:49Z"
+    },
+    {
+      "file": "landuse.json",
+      "sha256": "20170c6eff85fc9d99d50ef087a9419628655ace242844db1adf19bce0baddd8",
+      "osmTimestamp": "2026-10-07T23:34:39Z"
+    },
+    {
+      "file": "fushimi.json",
+      "sha256": "06fae96c8f797754cfc78ce342931978655a8b472c802c0028946ad886d28190",
+      "osmTimestamp": "2026-10-07T23:25:36Z"
+    },
+    {
+      "file": "entities.json",
+      "sha256": "9e8bd69de5a70f1201bc40c0a8a9d24fa1a2621c7e47d361fa475dc3d8e05e0c",
+      "osmTimestamp": null
+    },
+    {
+      "file": "related.json",
+      "sha256": "e6b8e7066baf266638af4ab7cdbebfaa7e4762aaedaae694f8e01fee0677d8a9",
+      "osmTimestamp": null
+    },
+    {
+      "file": "jodo-directory.json",
+      "sha256": "75b01df517e2cb96c16f6d62dfd3d9aa83575c12abe027206638824a600ff84d",
+      "osmTimestamp": null
+    }
+  ]
+}

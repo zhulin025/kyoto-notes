@@ -8,7 +8,8 @@
 ## 包含什么
 
 - 16 个景点、餐饮与散步地点，可搜索、分类浏览、查看详情、收藏及打开真实地图导航。
-- 原创 SVG 手绘风示意地图：景点、美食、散步图层，以及每日行程地点示意。
+- 巨幅手绘风京都寺社图鉴：1,482 个具名地理对象，默认展示 1,344 个寺社等地点；支持 11 区筛选、缩放聚合、宗派／寺格／文化财分类、收藏、名录与 CSV 导出。192 条目录记录单列待定位。公开数据尚非全量，详见 [数据说明](ATLAS_DATA.md)。
+- 美食、散步与精选景点的原版手绘图可折叠展开，每日行程保留 SVG 地点示意地图。
 - 京都四季、历史时间线、寺院与神社、町家、传统工艺及旅行礼仪。
 - 机场及市内交通、住宿区域、网络与时差、入境准备、紧急求助资料。
 - 3 / 5 / 7 天逐日行程，附步行估算、雨天备选、文本下载。
@@ -36,12 +37,14 @@ npm run preview
 
 - `src/data.js`：地点、行程、季节、礼仪、清单和官方来源。
 - `src/main.jsx`：页面及交互。
-- `src/SketchMap.jsx`：地图绘图与交互点位。
+- `src/TempleAtlas.jsx`、`src/atlas-utils.js`、`src/atlas.css`：寺社大图鉴、数据筛选与空间聚合。
+- `public/data/`、`scripts/`、`ATLAS_DATA.md`：寺社数据、来源与更新流程。
+- `src/SketchMap.jsx`：行程示意地图。
 - `src/Pavilion.jsx`：按需加载的 Three.js 模型。
 - `src/style.css`：响应式样式。
 - `public/photo-credits.json`、`ASSETS.md`：摄影来源及独立许可。
 
-资料整理日期：2026-10-05。官方旅游信息主要来自京都市旅游指南、JR 西日本、JNTO 和景点/店铺网站。时间、预算、步行距离属于规划建议；门票、营业、入境及交通政策应在出行前重新核查。手绘地图不按比例，3D 模型不是测绘复原。
+资料整理日期：2026-10-05。官方旅游信息主要来自京都市旅游指南、JR 西日本、JNTO 和景点/店铺网站。时间、预算、步行距离属于规划建议；门票、营业、入境及交通政策应在出行前重新核查。行程地图不按比例；寺社图鉴使用真实地理投影与示意装饰，不能作为导航。3D 模型不是测绘复原。
 
 收藏与出发清单仅写入当前浏览器的 localStorage，无账号、数据库或追踪分析。地点导航会打开 Google Maps；字体随站点提供；中文标题使用 Noto Serif SC 子集，缺失字形回退到系统字体。无需请求 Google Fonts。
 
@@ -51,4 +54,4 @@ Vercel 配置：Framework = Vite，Build Command = `npm run build`，Output Dire
 
 ## 许可
 
-原创代码、地图与插画采用 [MIT](LICENSE)。摄影素材**不适用 MIT**，应分别遵守 `public/photo-credits.json` 和 `ASSETS.md` 的许可与署名要求。
+原创代码、地图与插画采用 [MIT](LICENSE)。OSM 派生地图数据**不适用 MIT**，适用 ODbL 1.0，见 [ATLAS_DATA.md](ATLAS_DATA.md)。摄影素材**不适用 MIT**，应分别遵守 `public/photo-credits.json` 和 `ASSETS.md` 的许可与署名要求。

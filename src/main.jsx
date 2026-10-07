@@ -35,6 +35,7 @@ import {
 } from "./data";
 import SketchMap from "./SketchMap";
 import "./style.css";
+const TempleAtlas = lazy(() => import("./TempleAtlas"));
 const Pavilion = lazy(() => import("./Pavilion"));
 function useSaved(key, initial) {
   const [v, set] = useState(() => {
@@ -397,85 +398,95 @@ function App() {
           )}
         </section>
         <section id="map" className="map-section">
-          <div className="section">
+          <div className="atlas-section">
             <div className="section-head">
               <div>
-                <p className="eyebrow green">
-                  02 / A LITTLE MAP, A BIG ADVENTURE
-                </p>
-                <h2>把京都，摊在一张手绘地图上。</h2>
+                <p className="eyebrow green">02 / THE SACRED ATLAS</p>
+                <h2>展开一座城，遇见千座寺社。</h2>
                 <p className="subtext">
-                  东边看古寺，西边听竹风。先认识方向，再决定去哪里。
+                  沿着京都巨幅手绘地图，按行政区、宗派、寺格与文化遗产分类探索。放大一片街区，发现名刹之外的日常。
                 </p>
               </div>
-              <span className="handwritten">跟着好奇心走就好 ↙</span>
+              <span className="handwritten">一寺一社，皆有来处 ↙</span>
             </div>
-            <div className="map-shell">
-              <div className="map-area">
-                <div className="map-tabs">
-                  {["全部", "景点", "美食", "散步"].map((f) => (
-                    <button
-                      key={f}
-                      className={mapFilter === f ? "active" : ""}
-                      onClick={() => {
-                        setMapFilter(f);
-                        const first = places.find(
-                          (p) =>
-                            f === "全部" ||
-                            (f === "景点"
-                              ? ["景点", "人文"].includes(p.type)
-                              : f === "散步"
-                                ? ["散步", "自然"].includes(p.type)
-                                : p.type === f),
-                        );
-                        if (first) setMapPlace(first);
-                      }}
-                      aria-pressed={mapFilter === f}
-                    >
-                      {f === "全部" ? "全部地点" : f}
-                    </button>
-                  ))}
+            <Suspense
+              fallback={<div className="atlas-load">正在展开京都寺社图鉴…</div>}
+            >
+              <TempleAtlas />
+            </Suspense>
+            <details className="atlas-travel-overview">
+              <summary>
+                也想找美食与散步？展开旅行地点手绘图 <ArrowUpRight size={16} />
+              </summary>
+              <div className="map-shell">
+                <div className="map-area">
+                  <div className="map-tabs">
+                    {["全部", "景点", "美食", "散步"].map((f) => (
+                      <button
+                        key={f}
+                        className={mapFilter === f ? "active" : ""}
+                        onClick={() => {
+                          setMapFilter(f);
+                          const first = places.find(
+                            (p) =>
+                              f === "全部" ||
+                              (f === "景点"
+                                ? ["景点", "人文"].includes(p.type)
+                                : f === "散步"
+                                  ? ["散步", "自然"].includes(p.type)
+                                  : p.type === f),
+                          );
+                          if (first) setMapPlace(first);
+                        }}
+                        aria-pressed={mapFilter === f}
+                      >
+                        {f === "全部" ? "全部地点" : f}
+                      </button>
+                    ))}
+                  </div>
+                  <SketchMap
+                    type={mapFilter}
+                    selected={mapPlace.id}
+                    onSelect={setMapPlace}
+                  />
                 </div>
-                <SketchMap
-                  type={mapFilter}
-                  selected={mapPlace.id}
-                  onSelect={setMapPlace}
-                />
+                <aside className="map-detail">
+                  <span className="eyebrow green">A PLACE TO PAUSE</span>
+                  <img
+                    src={`/images/${mapPlace.img}.webp`}
+                    alt={
+                      mapPlace.img === "tea"
+                        ? "抹茶饮品氛围配图"
+                        : mapPlace.name
+                    }
+                    loading="lazy"
+                  />
+                  <span className="region-label">
+                    {mapPlace.region} / {mapPlace.type}
+                  </span>
+                  <h3>{mapPlace.name}</h3>
+                  <p>{mapPlace.desc}</p>
+                  <span className="small muted">
+                    <Clock size={13} /> 建议停留 {mapPlace.time}
+                  </span>
+                  <button
+                    className="button green-button"
+                    onClick={() => setModal(mapPlace)}
+                  >
+                    查看旅行笔记 <ArrowUpRight size={16} />
+                  </button>
+                  <button className="text-link" onClick={() => save(mapPlace)}>
+                    <Bookmark size={15} />
+                    {favorites.includes(mapPlace.id)
+                      ? "已在旅行清单中"
+                      : "收藏这个地方"}
+                  </button>
+                </aside>
               </div>
-              <aside className="map-detail">
-                <span className="eyebrow green">A PLACE TO PAUSE</span>
-                <img
-                  src={`/images/${mapPlace.img}.webp`}
-                  alt={
-                    mapPlace.img === "tea" ? "抹茶饮品氛围配图" : mapPlace.name
-                  }
-                  loading="lazy"
-                />
-                <span className="region-label">
-                  {mapPlace.region} / {mapPlace.type}
-                </span>
-                <h3>{mapPlace.name}</h3>
-                <p>{mapPlace.desc}</p>
-                <span className="small muted">
-                  <Clock size={13} /> 建议停留 {mapPlace.time}
-                </span>
-                <button
-                  className="button green-button"
-                  onClick={() => setModal(mapPlace)}
-                >
-                  查看旅行笔记 <ArrowUpRight size={16} />
-                </button>
-                <button className="text-link" onClick={() => save(mapPlace)}>
-                  <Bookmark size={15} />
-                  {favorites.includes(mapPlace.id)
-                    ? "已在旅行清单中"
-                    : "收藏这个地方"}
-                </button>
-              </aside>
-            </div>
-            <p className="map-disclaimer">
-              地图为原创手绘风示意，位置与路线经过简化，不用于实际导航。打开地点详情可跳转真实地图。
-            </p>
+              <p className="map-disclaimer">
+                地图为原创手绘风示意，位置与路线经过简化，不用于实际导航。打开地点详情可跳转真实地图。
+              </p>
+            </details>
           </div>
         </section>
         <section className="section seasons">
